@@ -1,0 +1,11 @@
+{
+  "name": "managerbackoffice",
+  "version": "1.0.0",
+  "description": "Angular manager to react-native app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Salvador Peralta",
+  "license": "ISC"
+}
