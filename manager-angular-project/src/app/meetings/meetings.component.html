@@ -1,0 +1,10 @@
+<h1> {{meeting.title}}</h1>
+<ul>
+  <li *ngFor="let assigment of meeting.assignments"
+  [class.selected]="assigment === selectedAssignment"
+  (click)="onSelect(assigment)">
+    {{assigment.name}}
+  </li>
+</ul>
+
+<app-meeting-detail [assignment]= "selectedAssignment"></app-meeting-detail>
